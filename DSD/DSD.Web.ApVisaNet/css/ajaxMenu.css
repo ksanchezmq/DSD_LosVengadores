@@ -1,0 +1,133 @@
+.acc-header1,.acc-selected1
+{
+	padding:8px; padding-left:10px;
+    text-align:left;
+    font:normal 13px Verdana;
+    color:#FFFFFF; 
+    background:#FF6200;
+    text-decoration:none;
+    font-weight:bold;
+    outline:none;
+    cursor:pointer;
+}
+
+
+.acc-content1
+{
+	border:1px solid #FF6200;
+	cursor:pointer;
+	font:normal 13px Verdana;
+}
+
+.acc-header2
+{
+	padding:4px; padding-left:10px;
+	border-bottom:1px solid #FF6200;
+	font:normal 13px Verdana;
+	/*background-image:url(../images/flechaderecha.jpg);*/
+	
+}
+
+.acc-header2 div:hover
+{
+	background-color:#F4A26F;
+}
+
+.acc-selected2
+{
+	padding:4px; padding-left:10px;
+	background-color:#F4A26F;
+	/*background-image:url(../images/flechaabajo.jpg);*/
+}
+
+.acc-content2
+{
+	font:normal 13px verdana;
+    padding:5px; padding-left:20px;
+    color:#000;
+    background:none;
+	border-bottom:1px solid #FF6200;
+}
+
+.acc-content2 li
+{
+	padding:5px;
+}
+
+.acc-content2 li a
+{
+	text-decoration:none;
+	color:Black;
+}
+
+.acc-content2 a:hover
+{
+	text-decoration:underline;
+}
+
+.acc-header3,.acc-selected3
+{
+	padding:4px; padding-left:10px;
+	
+}
+
+.acc-selected3
+{
+	background-color:#F4A26F;
+}
+
+.acc-content3
+{
+	padding:5px; padding-left:20px;
+    color:#000;
+    background:none;
+}
+
+
+
+
+
+/*body {  
+    font-family: verdana;  
+    font-size: 11px;  
+}  
+  
+.header, .selected {  
+    width: 300px;  
+    background-color: #c0c0c0;  
+    margin-bottom: 2px;  
+    padding: 2px;  
+    color: #444444;  
+    font-weight: bold;  
+    cursor: pointer;  
+}  
+  
+.content {  
+    width: 300px;  
+    margin-bottom: 2px;  
+    padding: 2px;  
+}  
+  
+.selected, .content {  
+    border: solid 1px #666666;  
+}  
+
+.acc-header, .acc-selected {  
+    width: 300px;  
+    background-color: #c0c0c0;  
+    margin-bottom: 2px;  
+    padding: 2px;  
+    color: #444444;  
+    font-weight: bold;  
+    cursor: pointer;  
+}  
+  
+.acc-content {  
+    width: 300px;  
+    margin-bottom: 2px;  
+    padding: 2px;  
+}  
+  
+.acc-selected, .acc-content {  
+    border: solid 1px #666666;  
+}  */

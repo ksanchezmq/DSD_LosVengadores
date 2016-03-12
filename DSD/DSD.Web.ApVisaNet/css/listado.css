@@ -1,0 +1,139 @@
+#listado table{width:85%;border-left:1px solid #d8d8d8; border-right:1px solid #c3d2de; padding-left:16px;}
+#listado table th{
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+/*text-align: center;*/
+font-size:13px;
+height:30px;
+padding:3px;
+}
+#listado table tr{color:#19377d;font-size:11px;text-align: center;font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+#listado table td{border-bottom:1px solid #e0e2e6;padding:5px;}
+#listado table td.on{border-bottom:1px solid #e0e2e6;background:#eaedf4;color:#19377d;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+.CeldaCabecera {
+text-align: left;
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+text-align: center;
+font-size:11px;
+height:30px;
+padding:3px;
+}
+
+#listado table tr:nth-child(odd) {border-bottom:1px solid #e0e2e6;padding:5px;}
+
+#listado table tr:nth-child(even) {border-bottom:1px solid #e0e2e6;background:#eaedf4;color:#19377d;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+
+#Div1 table{width:90%;border-left:1px solid #d8d8d8; border-right:1px solid #c3d2de
+}
+#Div1 table th{
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+/*text-align: center;*/
+font-size:13px;
+height:30px;
+padding:3px;
+}
+#Div1 table tr{color:#DA830A;font-size:11px;text-align: center;font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+#Div1 table td{border-bottom:1px solid #F5E7C8;padding:5px;}
+#Div1 table td.on{border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+.CeldaCabecera {
+text-align: left;
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #CC7401;
+text-align: center;
+font-size:11px;
+height:30px;
+padding:3px;
+}
+
+#Div1 table tr:nth-child(odd) {border-bottom:1px solid #F5E7C8;padding:5px;}
+
+#Div1 table tr:nth-child(even) {border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+
+#Div2 table{width:90%;border-left:1px solid #d8d8d8; border-right:1px solid #c3d2de
+}
+#Div2 table th{
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+/*text-align: center;*/
+font-size:13px;
+height:30px;
+padding:3px;
+}
+#Div2 table tr{color:#DA830A;font-size:11px;text-align: center;font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+#Div2 table td{border-bottom:1px solid #F5E7C8;padding:5px;}
+#Div2 table td.on{border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+#Div2 table tr:nth-child(odd) {border-bottom:1px solid #F5E7C8;padding:5px;}
+
+#Div2 table tr:nth-child(even) {border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+
+#Div3 table{width:90%;border-left:1px solid #d8d8d8; border-right:1px solid #c3d2de
+}
+#Div3 table th{
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+/*text-align: center;*/
+font-size:13px;
+height:30px;
+padding:3px;
+}
+#Div3 table tr{color:#DA830A;font-size:11px;text-align: center;font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+#Div3 table td{border-bottom:1px solid #F5E7C8;padding:5px;}
+#Div3 table td.on{border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+#Div3 table tr:nth-child(odd) {border-bottom:1px solid #F5E7C8;padding:5px;}
+
+#Div3 table tr:nth-child(even) {border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+
+#Div4 table{width:90%;border-left:1px solid #d8d8d8; border-right:1px solid #c3d2de
+}
+#Div4 table th{
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+/*text-align: center;*/
+font-size:13px;
+height:30px;
+padding:3px;
+}
+#Div4 table tr{color:#DA830A;font-size:11px;text-align: center;font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+#Div4 table td{border-bottom:1px solid #F5E7C8;padding:5px;}
+#Div4 table td.on{border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+#Div4 table tr:nth-child(odd) {border-bottom:1px solid #F5E7C8;padding:5px;}
+
+#Div5 table tr:nth-child(even) {border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+
+#Div5 table{width:90%;border-left:1px solid #d8d8d8; border-right:1px solid #c3d2de
+}
+#Div5 table th{
+font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;
+color:#ffffff;
+background-color: #1d3d7a;
+/*text-align: center;*/
+font-size:13px;
+height:30px;
+padding:3px;
+}
+#Div5 table tr{color:#DA830A;font-size:11px;text-align: center;font-family: Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+#Div5 table td{border-bottom:1px solid #F5E7C8;padding:5px;}
+#Div5 table td.on{border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
+
+#Div5 table tr:nth-child(odd) {border-bottom:1px solid #F5E7C8;padding:5px;}
+
+#Div5 table tr:nth-child(even) {border-bottom:1px solid #F5E7C8;background:#F9F6F1;color:#C27D0D;text-align:center;font-family:  Trebuchet MS, Tahoma, Arial, Verdana, Helvetica;}
