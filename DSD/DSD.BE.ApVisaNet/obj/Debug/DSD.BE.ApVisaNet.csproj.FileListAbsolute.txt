@@ -1,4 +1,0 @@
-D:\distribuidas\DSD.ApVisaNet\DSD.BE.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.dll
-D:\distribuidas\DSD.ApVisaNet\DSD.BE.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.pdb
-D:\distribuidas\DSD.ApVisaNet\DSD.BE.ApVisaNet\obj\Debug\DSD.BE.ApVisaNet.dll
-D:\distribuidas\DSD.ApVisaNet\DSD.BE.ApVisaNet\obj\Debug\DSD.BE.ApVisaNet.pdb
