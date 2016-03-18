@@ -1,6 +1,0 @@
-D:\distribuidas\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.dll.config
-D:\distribuidas\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.dll
-D:\distribuidas\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.pdb
-D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.csprojResolveAssemblyReference.cache
-D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.dll
-D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.pdb
