@@ -20,51 +20,35 @@ public partial class Paginas_GenerarSolicitud : System.Web.UI.Page
     {
         if (txtCodAfiliado.Text == "1")
         {
-            txtApePat.Text = Valores.Cliente_uno.strApePat.Trim();
-            txtApeMat.Text = Valores.Cliente_uno.strApeMat.Trim();
-            txtNombres.Text = Valores.Cliente_uno.strNombres.Trim();
-            txtDni.Text = Valores.Cliente_uno.strNumDocu.Trim();
-            txtFono1.Text = Valores.Cliente_uno.strFono1.Trim();
-            txtFono2.Text = Valores.Cliente_uno.strFono2.Trim();
-            txtDireccion.Text = Valores.Cliente_uno.strDireccion.Trim();
-            ddlDpto.SelectedValue = Valores.Cliente_uno.strDpto.Trim();
-            ddlProvincia.SelectedValue = Valores.Cliente_uno.strProvincia.Trim();
-            ddlDistrito.SelectedValue = Valores.Cliente_uno.strDistrito.Trim();
-            txtRuc.Text = Valores.Cliente_uno.strRuc.Trim();
-            txtFonoEmp1.Text = Valores.Cliente_uno.strFono3.Trim();
-            txtFonoEmp2.Text = "";
-            txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
-            ddlDptoEmp.SelectedValue = Valores.Cliente_uno.strDpto1.Trim();
-            ddlProvEmp.SelectedValue = Valores.Cliente_uno.strProvincia2.Trim();
-            ddlDistritoEmp.SelectedValue = Valores.Cliente_uno.strDistrito2.Trim();
-        }
-    }
+            int iCodAfiliado = int.Parse(txtCodAfiliado.Text);
+            WCFClientes.ClientesClient cliente = new WCFClientes.ClientesClient();
+            WCFClientes.Cliente Ecliente = new WCFClientes.Cliente();
 
-    protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        if (RadioButtonList1.SelectedValue == "1")
-        {
-            txtDireccion.Enabled = true;
-            ddlDpto.Enabled = true;
-            ddlProvincia.Enabled = true;
-            ddlDistrito.Enabled = true;
+            Ecliente = cliente.ObtenerCliente(iCodAfiliado);
 
-            txtDireccion.Text = "";
-            ddlDpto.SelectedValue = "0";
-            ddlProvincia.SelectedValue = "0";
-            ddlDistrito.SelectedValue = "0";
-        }
-        else
-        {
-            txtDireccion.Enabled = false;
-            ddlDpto.Enabled = false;
-            ddlProvincia.Enabled = false;
-            ddlDistrito.Enabled = false;
+            txtEstado.Text = Ecliente.Estado.ToString().Trim();
+            txtNombres.Text = Ecliente.Nombre;
+            txtDni.Text = Ecliente.Dni.ToString().Trim();
+            txtRuc.Text = Ecliente.Ruc.ToString().Trim();
+            txtDireccionEmp.Text = Ecliente.Direccion.Trim();
 
-            txtDireccion.Text = Valores.Cliente_uno.strDireccion.Trim();
-            ddlDpto.SelectedValue = Valores.Cliente_uno.strDpto.Trim();
-            ddlProvincia.SelectedValue = Valores.Cliente_uno.strProvincia.Trim();
-            ddlDistrito.SelectedValue = Valores.Cliente_uno.strDistrito.Trim();
+            //txtApePat.Text = Valores.Cliente_uno.strApePat.Trim();
+            //txtApeMat.Text = Valores.Cliente_uno.strApeMat.Trim();
+            //txtNombres.Text = Valores.Cliente_uno.strNombres.Trim();
+            //txtDni.Text = Valores.Cliente_uno.strNumDocu.Trim();
+            //txtFono1.Text = Valores.Cliente_uno.strFono1.Trim();
+            //txtFono2.Text = Valores.Cliente_uno.strFono2.Trim();
+            //txtDireccion.Text = Valores.Cliente_uno.strDireccion.Trim();
+            //ddlDpto.SelectedValue = Valores.Cliente_uno.strDpto.Trim();
+            //ddlProvincia.SelectedValue = Valores.Cliente_uno.strProvincia.Trim();
+            //ddlDistrito.SelectedValue = Valores.Cliente_uno.strDistrito.Trim();
+            //txtRuc.Text = Valores.Cliente_uno.strRuc.Trim();
+            //txtFonoEmp1.Text = Valores.Cliente_uno.strFono3.Trim();
+            //txtFonoEmp2.Text = "";
+            //txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
+            //ddlDptoEmp.SelectedValue = Valores.Cliente_uno.strDpto1.Trim();
+            //ddlProvEmp.SelectedValue = Valores.Cliente_uno.strProvincia2.Trim();
+            //ddlDistritoEmp.SelectedValue = Valores.Cliente_uno.strDistrito2.Trim();
         }
     }
 
@@ -73,26 +57,14 @@ public partial class Paginas_GenerarSolicitud : System.Web.UI.Page
         if (RadioButtonList2.SelectedValue == "1")
         {
             txtDireccionEmp.Enabled = true;
-            ddlDptoEmp.Enabled = true;
-            ddlProvEmp.Enabled = true;
-            ddlDistritoEmp.Enabled = true;
 
-            txtDireccionEmp.Text = "";
-            ddlDptoEmp.SelectedValue = "0";
-            ddlProvEmp.SelectedValue = "0";
-            ddlDistritoEmp.SelectedValue = "0";
+            //txtDireccionEmp.Text = "";
         }
         else
         {
             txtDireccionEmp.Enabled = false;
-            ddlDptoEmp.Enabled = false;
-            ddlProvEmp.Enabled = false;
-            ddlDistritoEmp.Enabled = false;
 
             txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
-            ddlDptoEmp.SelectedValue = Valores.Cliente_uno.strDpto1.Trim();
-            ddlProvEmp.SelectedValue = Valores.Cliente_uno.strProvincia2.Trim();
-            ddlDistritoEmp.SelectedValue = Valores.Cliente_uno.strDistrito2.Trim();
         }
     }
 

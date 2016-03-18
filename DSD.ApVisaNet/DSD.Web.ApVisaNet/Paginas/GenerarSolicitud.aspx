@@ -61,8 +61,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:UpdatePanel ID="upSolicitud" runat="server">
         <ContentTemplate>
-            <fieldset>
-                <legend>Generar Solicitud de Reactivación</legend>
+            <legend>Generar Solicitud de Reactivación</legend>
                 <table>
                     <tr>
                         <td>
@@ -77,24 +76,14 @@
                         </td>
                     </tr>
                     <tr>
+                        <td>Estado de Afiliado:</td>
+                        <td>
+                            <asp:TextBox ID="txtEstado" runat="server" AutoPostBack="True" Enabled="False"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
                         <td>
                             <b style="text-decoration: underline">Datos Personales</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Apellido Paterno:
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtApePat" runat="server" Enabled="False"></asp:TextBox>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Apellido Materno:
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtApeMat" runat="server" Enabled="False"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -102,7 +91,7 @@
                             Nombres:
                         </td>
                         <td>
-                            <asp:TextBox ID="txtNombres" runat="server" Enabled="False"></asp:TextBox>
+                            <asp:TextBox ID="txtNombres" runat="server" Enabled="False" Width="245px"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -113,80 +102,6 @@
                             <asp:TextBox ID="txtDni" runat="server" Enabled="False"></asp:TextBox>
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            Teléfono 1:
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtFono1" runat="server" Enabled="False"></asp:TextBox>
-                        </td>
-                        <td>
-                            Teléfono 2:
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtFono2" runat="server" Enabled="False"></asp:TextBox>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            ¿Cambiar Dirección?
-                        </td>
-                        <td>
-                            <asp:RadioButtonList ID="RadioButtonList1" runat="server" 
-                                RepeatDirection="Horizontal" AutoPostBack="True" 
-                                onselectedindexchanged="RadioButtonList1_SelectedIndexChanged">
-                                <asp:ListItem Value="1">SI</asp:ListItem>
-                                <asp:ListItem Value="0">NO</asp:ListItem>
-                            </asp:RadioButtonList>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Dirección:
-                        </td>
-                        <td colspan="4">
-                            <asp:TextBox ID="txtDireccion" runat="server" Width="376px" Enabled="False"></asp:TextBox>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Departamento:
-                        </td>
-                        <td>
-                            <asp:DropDownList ID="ddlDpto" runat="server" AppendDataBoundItems="True" 
-                                Enabled="False">
-                                <asp:ListItem Value="0">--SELECCIONE--</asp:ListItem>
-                                <asp:ListItem Value="1">LIMA</asp:ListItem>
-                                <asp:ListItem Value="2">LAMBAYEQUE</asp:ListItem>
-                                <asp:ListItem Value="3">LA LIBERTAD</asp:ListItem>
-                            </asp:DropDownList>
-                        </td>
-                        <td>
-                            Provincia:
-                        </td>
-                        <td>
-                            <asp:DropDownList ID="ddlProvincia" runat="server" AppendDataBoundItems="True" 
-                                Enabled="False">
-                                <asp:ListItem Value="0">--SELECCIONE--</asp:ListItem>
-                                <asp:ListItem Value="1">LIMA</asp:ListItem>
-                                <asp:ListItem Value="2">TRUJILLO</asp:ListItem>
-                                <asp:ListItem Value="3">CHICLAYO</asp:ListItem>
-                            </asp:DropDownList>
-                        </td>
-                        <td>
-                            Distrito:
-                        </td>
-                        <td>
-                            <asp:DropDownList ID="ddlDistrito" runat="server" AppendDataBoundItems="True" 
-                                Enabled="False">
-                                <asp:ListItem Value="0">--SELECCIONE--</asp:ListItem>
-                                <asp:ListItem Value="1">MIRAFLORES</asp:ListItem>
-                                <asp:ListItem Value="2">SAN JUAN DE MIRAFLORES</asp:ListItem>
-                                <asp:ListItem Value="3">SURCO</asp:ListItem>
-                            </asp:DropDownList>
-                        </td>
-                    </tr>
-
                     <tr>
                         <td class="style2">
                             <b>Datos de la Empresa</b>
@@ -202,10 +117,6 @@
                         <td>Teléfono 1:</td>
                         <td>
                             <asp:TextBox ID="txtFonoEmp1" runat="server" Enabled="False"></asp:TextBox>
-                        </td>
-                        <td>Teléfono 2:</td>
-                        <td>
-                            <asp:TextBox ID="txtFonoEmp2" runat="server" Enabled="False"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -227,44 +138,6 @@
                         </td>
                         <td colspan="4">
                             <asp:TextBox ID="txtDireccionEmp" runat="server" Width="376px" Enabled="False"></asp:TextBox>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Departamento:
-                        </td>
-                        <td>
-                            <asp:DropDownList ID="ddlDptoEmp" runat="server" AppendDataBoundItems="True" 
-                                Enabled="False">
-                                <asp:ListItem Value="0">--SELECCIONE--</asp:ListItem>
-                                <asp:ListItem Value="1">LIMA</asp:ListItem>
-                                <asp:ListItem Value="2">LAMBAYEQUE</asp:ListItem>
-                                <asp:ListItem Value="3">LA LIBERTAD</asp:ListItem>
-                            </asp:DropDownList>
-                        </td>
-                        <td>
-                            Provincia:
-                        </td>
-                        <td>
-                            <asp:DropDownList ID="ddlProvEmp" runat="server" AppendDataBoundItems="True" 
-                                Enabled="False">
-                                <asp:ListItem Value="0">--SELECCIONE--</asp:ListItem>
-                                <asp:ListItem Value="1">LIMA</asp:ListItem>
-                                <asp:ListItem Value="2">TRUJILLO</asp:ListItem>
-                                <asp:ListItem Value="3">CHICLAYO</asp:ListItem>
-                            </asp:DropDownList>
-                        </td>
-                        <td>
-                            Distrito:
-                        </td>
-                        <td>
-                            <asp:DropDownList ID="ddlDistritoEmp" runat="server" AppendDataBoundItems="True" 
-                                Enabled="False">
-                                <asp:ListItem Value="0">--SELECCIONE--</asp:ListItem>
-                                <asp:ListItem Value="1">MIRAFLORES</asp:ListItem>
-                                <asp:ListItem Value="2">SAN JUAN DE MIRAFLORES</asp:ListItem>
-                                <asp:ListItem Value="3">SURCO</asp:ListItem>
-                            </asp:DropDownList>
                         </td>
                     </tr>
                     <tr>
