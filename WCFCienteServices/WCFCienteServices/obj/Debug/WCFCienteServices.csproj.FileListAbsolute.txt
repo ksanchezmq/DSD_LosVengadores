@@ -1,0 +1,4 @@
+D:\distribuidas\Backup\WCFCienteServices\bin\WCFCienteServices.dll
+D:\distribuidas\Backup\WCFCienteServices\bin\WCFCienteServices.pdb
+D:\distribuidas\Backup\WCFCienteServices\obj\Debug\WCFCienteServices.dll
+D:\distribuidas\Backup\WCFCienteServices\obj\Debug\WCFCienteServices.pdb
