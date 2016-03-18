@@ -2,3 +2,8 @@ D:\distribuidas\Backup\WCFCienteServices\bin\WCFCienteServices.dll
 D:\distribuidas\Backup\WCFCienteServices\bin\WCFCienteServices.pdb
 D:\distribuidas\Backup\WCFCienteServices\obj\Debug\WCFCienteServices.dll
 D:\distribuidas\Backup\WCFCienteServices\obj\Debug\WCFCienteServices.pdb
+D:\distribuidas\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.dll
+D:\distribuidas\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.pdb
+D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.dll
+D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.pdb
+D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.csprojResolveAssemblyReference.cache
