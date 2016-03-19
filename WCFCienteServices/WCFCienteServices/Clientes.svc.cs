@@ -13,6 +13,7 @@ namespace WCFCienteServices
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Clientes" en el código, en svc y en el archivo de configuración a la vez.
     public class Clientes : IClientes
     {
+
         #region Miembros de IClientes
         private ClienteDAO clienteDAO = new ClienteDAO();
 
