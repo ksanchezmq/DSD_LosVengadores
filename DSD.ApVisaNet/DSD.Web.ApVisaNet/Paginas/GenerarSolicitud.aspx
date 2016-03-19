@@ -68,19 +68,15 @@
                             Código de Afiliado:
                         </td>
                         <td>
-                            <asp:TextBox ID="txtCodAfiliado" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtCodAfiliado" runat="server" Text=""></asp:TextBox>
                         </td>
                         <td>
                             <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClientClick="return js_BuscarDatos();" 
                                 onclick="btnBuscar_Click" />
                         </td>
-                    </tr>
-                    <tr>
-                        <td>Estado de Afiliado:</td>
-                        <td>
-                            <asp:TextBox ID="txtEstado" runat="server" AutoPostBack="True" Enabled="False"></asp:TextBox>
-                        </td>
-                    </tr>
+                     </tr>
+                </table>
+                <table id="datoscliente" runat="server" visible="false">
                     <tr>
                         <td>
                             <b style="text-decoration: underline">Datos Personales</b>
@@ -100,6 +96,14 @@
                         </td>
                         <td>
                             <asp:TextBox ID="txtDni" runat="server" Enabled="False"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Correo:
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtCorreo" runat="server" Enabled="False" Width="245px"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>

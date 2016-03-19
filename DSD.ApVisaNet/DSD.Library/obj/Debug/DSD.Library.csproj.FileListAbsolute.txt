@@ -2,3 +2,7 @@ D:\distribuidas\DSD.ApVisaNet\DSD.Library\bin\Debug\DSD.Library.dll
 D:\distribuidas\DSD.ApVisaNet\DSD.Library\bin\Debug\DSD.Library.pdb
 D:\distribuidas\DSD.ApVisaNet\DSD.Library\obj\Debug\DSD.Library.dll
 D:\distribuidas\DSD.ApVisaNet\DSD.Library\obj\Debug\DSD.Library.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Library\bin\Debug\DSD.Library.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Library\bin\Debug\DSD.Library.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Library\obj\Debug\DSD.Library.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Library\obj\Debug\DSD.Library.pdb

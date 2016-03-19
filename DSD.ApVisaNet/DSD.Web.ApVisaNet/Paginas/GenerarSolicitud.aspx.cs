@@ -6,6 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DSD.Web.Util.ApVisaNet;
 using System.Runtime.Serialization;
+using System.Net.Mail;
+using System.Net;
 
 public partial class Paginas_GenerarSolicitud : System.Web.UI.Page
 {
@@ -13,43 +15,46 @@ public partial class Paginas_GenerarSolicitud : System.Web.UI.Page
     {
         if (!Page.IsPostBack)
         {
-            
         }
     }
     protected void btnBuscar_Click(object sender, EventArgs e)
     {
-        if (txtCodAfiliado.Text == "1")
+        datoscliente.Visible = true;
+        int iCodAfiliado = int.Parse(txtCodAfiliado.Text);
+        WCFClientes.ClientesClient cliente = new WCFClientes.ClientesClient();
+        WCFClientes.Cliente Ecliente = new WCFClientes.Cliente();
+
+        Ecliente = cliente.ObtenerCliente(iCodAfiliado);
+
+        txtNombres.Text = Ecliente.Nombre;
+        txtDni.Text = Ecliente.Dni.ToString().Trim();
+        txtRuc.Text = Ecliente.Ruc.ToString().Trim();
+        txtDireccionEmp.Text = Ecliente.Direccion.Trim();
+        txtCorreo.Text = Ecliente.Correo.Trim();
+        RadioButtonList2.Items[1].Selected = true;
+        if (RadioButtonList3.Items[0].Value == Ecliente.Tipo_pos.ToString())
         {
-            int iCodAfiliado = int.Parse(txtCodAfiliado.Text);
-            WCFClientes.ClientesClient cliente = new WCFClientes.ClientesClient();
-            WCFClientes.Cliente Ecliente = new WCFClientes.Cliente();
-
-            Ecliente = cliente.ObtenerCliente(iCodAfiliado);
-
-            txtEstado.Text = Ecliente.Estado.ToString().Trim();
-            txtNombres.Text = Ecliente.Nombre;
-            txtDni.Text = Ecliente.Dni.ToString().Trim();
-            txtRuc.Text = Ecliente.Ruc.ToString().Trim();
-            txtDireccionEmp.Text = Ecliente.Direccion.Trim();
-
-            //txtApePat.Text = Valores.Cliente_uno.strApePat.Trim();
-            //txtApeMat.Text = Valores.Cliente_uno.strApeMat.Trim();
-            //txtNombres.Text = Valores.Cliente_uno.strNombres.Trim();
-            //txtDni.Text = Valores.Cliente_uno.strNumDocu.Trim();
-            //txtFono1.Text = Valores.Cliente_uno.strFono1.Trim();
-            //txtFono2.Text = Valores.Cliente_uno.strFono2.Trim();
-            //txtDireccion.Text = Valores.Cliente_uno.strDireccion.Trim();
-            //ddlDpto.SelectedValue = Valores.Cliente_uno.strDpto.Trim();
-            //ddlProvincia.SelectedValue = Valores.Cliente_uno.strProvincia.Trim();
-            //ddlDistrito.SelectedValue = Valores.Cliente_uno.strDistrito.Trim();
-            //txtRuc.Text = Valores.Cliente_uno.strRuc.Trim();
-            //txtFonoEmp1.Text = Valores.Cliente_uno.strFono3.Trim();
-            //txtFonoEmp2.Text = "";
-            //txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
-            //ddlDptoEmp.SelectedValue = Valores.Cliente_uno.strDpto1.Trim();
-            //ddlProvEmp.SelectedValue = Valores.Cliente_uno.strProvincia2.Trim();
-            //ddlDistritoEmp.SelectedValue = Valores.Cliente_uno.strDistrito2.Trim();
+            RadioButtonList3.Items[0].Selected = true;
         }
+        else {
+            RadioButtonList3.Items[1].Selected = true;
+        }
+
+        datoscliente.Visible = (Ecliente.Estado == "Inactivo");
+        if (Ecliente.Estado == "Activo")
+        {
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "mensaje", "js_MostrarAlertaAtencion('Generar Solicitud de Reactivación', 'Usuario activo');", true);
+        }
+
+        WCFSolicitud.SolicitudClient proxySolicitud = new WCFSolicitud.SolicitudClient();
+        var existeSolicitud = proxySolicitud.ValidarSiExisteSolicitudCliente(int.Parse(txtCodAfiliado.Text));
+
+        if (existeSolicitud)
+        {
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "mensaje", "js_MostrarAlertaAtencion('Generar Solicitud de Reactivación', 'Usted ya tiene una solicitud generada');", true);
+            datoscliente.Visible = false;
+        }
+
     }
 
     protected void RadioButtonList2_SelectedIndexChanged(object sender, EventArgs e)
@@ -57,22 +62,23 @@ public partial class Paginas_GenerarSolicitud : System.Web.UI.Page
         if (RadioButtonList2.SelectedValue == "1")
         {
             txtDireccionEmp.Enabled = true;
-
-            //txtDireccionEmp.Text = "";
         }
         else
         {
             txtDireccionEmp.Enabled = false;
-
-            txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
+        //    txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
         }
     }
 
     protected void btnGenerar_Click(object sender, EventArgs e)
     {
+        WCFSolicitud.SolicitudClient proxySolicitud = new WCFSolicitud.SolicitudClient();
+        var codigoSolicitud = proxySolicitud.GenerarSolicitud(int.Parse(txtCodAfiliado.Text));
+
         lblAlert.Text = "Solicitud Generada Correctamente";
-        lblMensaje.Text = "N° Solicitud: 20";
-        showAlert(true); 
+        lblMensaje.Text = "N° Solicitud: " + codigoSolicitud.ToString();
+        showAlert(true);
+       
     }
 
     protected void btnAceptar_Click(object sender, ImageClickEventArgs e)
