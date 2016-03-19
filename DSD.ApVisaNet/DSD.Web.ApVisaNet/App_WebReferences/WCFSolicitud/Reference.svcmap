@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3acba840-ab0f-4f4f-82b8-2575cdb57d4f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:34768/Solicitud.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Solicitud.wsdl" MetadataType="Wsdl" ID="e55576a6-0d62-49fe-9240-f89f52955b51" SourceId="1" SourceUrl="http://localhost:34768/Solicitud.svc?wsdl" />
+    <MetadataFile FileName="Solicitud.xsd" MetadataType="Schema" ID="d9c9676d-0cc4-4513-8ed6-1817a4ba8a19" SourceId="1" SourceUrl="http://localhost:34768/Solicitud.svc?xsd=xsd0" />
+    <MetadataFile FileName="Solicitud1.xsd" MetadataType="Schema" ID="25a550ee-df83-4eb9-9ed7-62338f716a65" SourceId="1" SourceUrl="http://localhost:34768/Solicitud.svc?xsd=xsd1" />
+    <MetadataFile FileName="Solicitud.disco" MetadataType="Disco" ID="ed750e58-0050-4708-980e-c9eb4d6559bd" SourceId="1" SourceUrl="http://localhost:34768/Solicitud.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
