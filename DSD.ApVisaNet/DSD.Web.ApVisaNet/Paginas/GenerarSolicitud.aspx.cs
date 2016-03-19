@@ -57,5 +57,38 @@ public partial class Paginas_GenerarSolicitud : System.Web.UI.Page
 
     }
 
+    protected void RadioButtonList2_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (RadioButtonList2.SelectedValue == "1")
+        {
+            txtDireccionEmp.Enabled = true;
+        }
+        else
+        {
+            txtDireccionEmp.Enabled = false;
+        //    txtDireccionEmp.Text = Valores.Cliente_uno.strDireccion2.Trim();
+        }
+    }
 
+    protected void btnGenerar_Click(object sender, EventArgs e)
+    {
+        WCFSolicitud.SolicitudClient proxySolicitud = new WCFSolicitud.SolicitudClient();
+        var codigoSolicitud = proxySolicitud.GenerarSolicitud(int.Parse(txtCodAfiliado.Text));
+
+        lblAlert.Text = "Solicitud Generada Correctamente";
+        lblMensaje.Text = "N° Solicitud: " + codigoSolicitud.ToString();
+        showAlert(true);
+       
+    }
+
+    protected void btnAceptar_Click(object sender, ImageClickEventArgs e)
+    {
+        showAlert(false);
+    }
+
+    private void showAlert(bool b)
+    {
+        panel1.Visible = b;
+        panelAlert.Visible = b;
+    }
 }
