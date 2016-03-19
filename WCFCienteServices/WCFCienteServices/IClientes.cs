@@ -15,6 +15,8 @@ namespace WCFCienteServices
     {
         [FaultContract(typeof(ClienteExcepciones))]
         [OperationContract]
-        Cliente ObtenerCliente(int codigo); 
+        Cliente ObtenerCliente(int codigo);
+        [OperationContract]
+        bool ValidarExisteCliente(int codigoCliente);
     }
 }

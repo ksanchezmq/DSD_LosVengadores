@@ -24,10 +24,15 @@ namespace WCFCienteServices
                 throw new FaultException<ClienteExcepciones>(new ClienteExcepciones()
                 {
                     codigo = "101",
-                    descripcion = "Código de Afiliado no existe, por favor registrarse."
+                    descripcion = "Código no existe."
                 }, new FaultReason("Error al buscar cliente"));
             }
             return clienteDAO.Buscar(codigo);
+        }
+
+        public bool ValidarExisteCliente(int codigoCliente)
+        {
+            return new ClienteDAO().ValidarExisteCliente(codigoCliente);
         }
 
         #endregion

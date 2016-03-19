@@ -17,11 +17,21 @@
   <wsdl:message name="IClientes_ObtenerCliente_ClienteExcepcionesFault_FaultMessage">
     <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/WCFCienteServices.Errores" name="detail" element="q1:ClienteExcepciones" />
   </wsdl:message>
+  <wsdl:message name="IClientes_ValidarExisteCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarExisteCliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_ValidarExisteCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarExisteClienteResponse" />
+  </wsdl:message>
   <wsdl:portType name="IClientes">
     <wsdl:operation name="ObtenerCliente">
       <wsdl:input wsaw:Action="http://tempuri.org/IClientes/ObtenerCliente" message="tns:IClientes_ObtenerCliente_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IClientes/ObtenerClienteResponse" message="tns:IClientes_ObtenerCliente_OutputMessage" />
       <wsdl:fault wsaw:Action="http://tempuri.org/IClientes/ObtenerClienteClienteExcepcionesFault" name="ClienteExcepcionesFault" message="tns:IClientes_ObtenerCliente_ClienteExcepcionesFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarExisteCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/ValidarExisteCliente" message="tns:IClientes_ValidarExisteCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/ValidarExisteClienteResponse" message="tns:IClientes_ValidarExisteCliente_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IClientes" type="tns:IClientes">
@@ -37,6 +47,15 @@
       <wsdl:fault name="ClienteExcepcionesFault">
         <soap:fault use="literal" name="ClienteExcepcionesFault" namespace="" />
       </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarExisteCliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/ValidarExisteCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
     </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="Clientes">

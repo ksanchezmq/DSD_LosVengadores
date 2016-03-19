@@ -43,5 +43,21 @@ namespace WCFCienteServices.Persistencia
             }
             return clienteEncontrado;
         }
+
+        public bool ValidarExisteCliente(int codigoCliente)
+        {
+            bool existe;
+            using (SqlConnection conexion = new SqlConnection(CadenaConexion))
+            {
+                conexion.Open();
+                using (SqlCommand comando = new SqlCommand("uspValidaCodigoCliente", conexion))
+                {
+                    comando.CommandType = System.Data.CommandType.StoredProcedure;
+                    comando.Parameters.Add(new SqlParameter("@codigo", codigoCliente));
+                    existe = bool.Parse(comando.ExecuteScalar().ToString());
+                }
+            }
+            return existe;
+        }
     }
 }

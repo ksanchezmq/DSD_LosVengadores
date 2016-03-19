@@ -9,6 +9,5 @@ D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.
 D:\distribuidas\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.csprojResolveAssemblyReference.cache
 B:\DSD_LosVengadores\DSD_LosVengadores\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.dll
 B:\DSD_LosVengadores\DSD_LosVengadores\WCFCienteServices\WCFCienteServices\bin\WCFCienteServices.pdb
-B:\DSD_LosVengadores\DSD_LosVengadores\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.csprojResolveAssemblyReference.cache
 B:\DSD_LosVengadores\DSD_LosVengadores\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.dll
 B:\DSD_LosVengadores\DSD_LosVengadores\WCFCienteServices\WCFCienteServices\obj\Debug\WCFCienteServices.pdb
