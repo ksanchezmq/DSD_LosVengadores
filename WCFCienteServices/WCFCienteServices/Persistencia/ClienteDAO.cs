@@ -34,7 +34,8 @@ namespace WCFCienteServices.Persistencia
                                 Direccion = (string)resultado[3],
                                 Ruc = (string)resultado[4],
                                 Estado = (string)resultado[5],
-                                Tipo_pos = int.Parse(resultado[6].ToString())
+                                Tipo_pos = int.Parse(resultado[6].ToString()),
+                                Correo = (string)resultado[7].ToString()
                             };
                         }
                     }

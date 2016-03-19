@@ -33,5 +33,8 @@ namespace WCFCienteServices.Dominio
         [DataMember]
         public int Num_serie { get; set; }
 
+        [DataMember]
+        public string Correo { get; set; }
+
     }
 }
