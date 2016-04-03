@@ -1,0 +1,256 @@
+﻿.Overlay { 
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index:1000;
+
+}
+ 
+.PopUpPanel{  
+ position:absolute;
+  background-color: #FFFFFF;   
+  top:250px;
+  left:20%;
+  z-index:2001; 
+  padding:10px;
+  min-width:400px;
+  max-width:900px;
+    
+  -moz-box-shadow:3.5px 4px 5px #000000;
+  -webkit-box-shadow:3.5px 4px 5px #000000;
+  box-shadow:3.5px 4px 5px #000000;
+		
+  border-radius:5px;
+  -moz-border-radiux:5px;
+  -webkit-border-radiux:5px;
+ border: 1px solid #9C9999;
+}
+
+
+.OverlayAlert{
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index: 10005 !important;
+}
+ 
+.PopUpPanelAlert
+{
+  
+ position:absolute;
+  background-color: #FFFFFF;   
+  top:220px;
+  left:40%;
+  z-index:2001; 
+  padding:8px;
+  min-width:200px;
+  max-width:800px;
+  min-height:150px;
+  max-height:800px;
+   
+  -moz-box-shadow:3.5px 4px 5px #000000;
+  -webkit-box-shadow:3.5px 4px 5px #000000;
+  box-shadow:3.5px 4px 5px #000000;	
+   		
+  border-radius:5px;
+  -moz-border-radiux:5px;
+  -webkit-border-radiux:5px;
+  border: 1px solid #9C9999;  
+  z-index: 10005 !important;
+}
+
+
+.OverlayParam2{
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index:1000;
+
+}
+ 
+.PopUpPanelParam2
+{
+  
+ position:absolute;
+  background-color: #FFFFFF;   
+  top:180px;
+  left:30%;
+  z-index:2001; 
+  padding:8px;
+  /*min-width:300px;*/
+  max-width:700px;
+   
+  -moz-box-shadow:3.5px 4px 5px #000000;
+  -webkit-box-shadow:3.5px 4px 5px #000000;
+  box-shadow:3.5px 4px 5px #000000;	
+   		
+  border-radius:5px;
+  -moz-border-radiux:5px;
+  -webkit-border-radiux:5px;
+ border: 1px solid #9C9999;
+}
+
+
+.OverlayParam3{
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index:1000;
+
+}
+ 
+.PopUpPanelParam3
+{
+  
+ position:absolute;
+  background-color: #FFFFFF;   
+  top:180px;
+  left:30%;
+  z-index:2001; 
+  padding:8px;
+  /*min-width:300px;*/
+  max-width:700px;
+   
+  -moz-box-shadow:3.5px 4px 5px #000000;
+  -webkit-box-shadow:3.5px 4px 5px #000000;
+  box-shadow:3.5px 4px 5px #000000;	
+   		
+  border-radius:5px;
+  -moz-border-radiux:5px;
+  -webkit-border-radiux:5px;
+ border: 1px solid #9C9999;
+}
+
+
+.OverlayCol { 
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index:1000;
+
+}
+ 
+.PopUpPanelCol{  
+ position:absolute;
+  background-color: #FFFFFF;   
+  top:200px;
+  left:20%;
+  z-index:2001; 
+  padding:5px;
+  padding-top:1px;
+  /*height:340px;*/
+  /*min-width:400px;*/
+  max-width:900px;
+    
+  -moz-box-shadow:3.5px 4px 5px #000000;
+  -webkit-box-shadow:3.5px 4px 5px #000000;
+  box-shadow:3.5px 4px 5px #000000;
+		
+  border-radius:5px;
+  -moz-border-radiux:5px;
+  -webkit-border-radiux:5px;
+ border: 1px solid #9C9999;
+}
+
+
+.OverlaySpf { 
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index:1000;
+
+}
+ 
+.PopUpPanelSpf{  
+  position:absolute;
+  background-color: #FFFFFF;   
+  top:250px;
+  left:20%;
+  z-index:2001; 
+  padding:10px;
+  min-width:400px;
+  max-width:900px;
+    
+  -moz-box-shadow:3.5px 4px 5px #000000;
+  -webkit-box-shadow:3.5px 4px 5px #000000;
+  box-shadow:3.5px 4px 5px #000000;
+		
+  border-radius:5px;
+  -moz-border-radiux:5px;
+  -webkit-border-radiux:5px;
+ border: 1px solid #9C9999;
+}
+
+
+.OverlayProgress { 
+  position:fixed; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+  filter:alpha(opacity=70); 
+  opacity:0.7; 
+  z-index:1000;
+}
+
+.DivProgress 
+{
+	height:100%;
+	font-family:Tahoma; 
+	font-size:smaller; 
+	padding-left: 450px;
+	position:absolute;
+}
+

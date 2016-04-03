@@ -1,0 +1,18 @@
+D:\distribuidas\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.csprojResolveAssemblyReference.cache
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.csprojResolveAssemblyReference.cache
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Core.Util.ApVisaNet\obj\Debug\DSD.Core.Util.ApVisaNet.pdb

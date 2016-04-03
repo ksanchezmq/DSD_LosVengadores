@@ -1,0 +1,14 @@
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\bin\Debug\DSD.Entity.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\bin\Debug\DSD.Entity.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\bin\Debug\DSD.Entity.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\bin\Debug\DSD.Entity.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.csprojResolveAssemblyReference.cache
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\bin\Debug\DSD.Entity.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\bin\Debug\DSD.Entity.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.csprojResolveAssemblyReference.cache
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Entity\obj\Debug\DSD.Entity.pdb

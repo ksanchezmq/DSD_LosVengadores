@@ -1,0 +1,8 @@
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll.config
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.csprojResolveAssemblyReference.cache
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.pdb

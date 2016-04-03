@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="321868fb-626b-4872-8e74-f4d86cb88286" name="Graziella@GRAZIELLA 2016-03-19 11:11:08" runUser="GRAZIELLA\Graziella" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e235c4bb-3825-4866-8d2c-c7fe9f036fb2">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Graziella_GRAZIELLA 2016-03-19 11_11_08" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-03-19T11:11:08.6309087-05:00" queuing="2016-03-19T11:11:10.7360910-05:00" start="2016-03-19T11:11:10.8570615-05:00" finish="2016-03-19T11:11:12.0922775-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test2_ObtenerClienteNoExiste" storage="b:\dsd_losvengadores\dsd_losvengadores\wcfcienteservices\wcfclienteservicetest\bin\debug\wcfclienteservicetest.dll" id="b0c7de23-be70-426f-6919-9bb7ee37d73a">
+      <Execution id="0f56df9c-6ab5-4ebf-bc30-e75ffe8ff2ff" />
+      <TestMethod codeBase="B:/DSD_LosVengadores/DSD_LosVengadores/WCFCienteServices/WCFClienteServiceTest/bin/Debug/WCFClienteServiceTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WCFClienteServiceTest.UnitTest1, WCFClienteServiceTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test2_ObtenerClienteNoExiste" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b0c7de23-be70-426f-6919-9bb7ee37d73a" executionId="0f56df9c-6ab5-4ebf-bc30-e75ffe8ff2ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0f56df9c-6ab5-4ebf-bc30-e75ffe8ff2ff" testId="b0c7de23-be70-426f-6919-9bb7ee37d73a" testName="Test2_ObtenerClienteNoExiste" computerName="GRAZIELLA" duration="00:00:00.6387184" startTime="2016-03-19T11:11:11.0155128-05:00" endTime="2016-03-19T11:11:12.0182450-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f56df9c-6ab5-4ebf-bc30-e75ffe8ff2ff">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,6 @@
+D:\distribuidas\WCFCienteServices\WCFClienteServiceTest\bin\Debug\WCFClienteServiceTest.dll.config
+D:\distribuidas\WCFCienteServices\WCFClienteServiceTest\bin\Debug\WCFClienteServiceTest.dll
+D:\distribuidas\WCFCienteServices\WCFClienteServiceTest\bin\Debug\WCFClienteServiceTest.pdb
+D:\distribuidas\WCFCienteServices\WCFClienteServiceTest\obj\Debug\WCFClienteServiceTest.dll
+D:\distribuidas\WCFCienteServices\WCFClienteServiceTest\obj\Debug\WCFClienteServiceTest.pdb
+D:\distribuidas\WCFCienteServices\WCFClienteServiceTest\obj\Debug\WCFClienteServiceTest.csprojResolveAssemblyReference.cache
