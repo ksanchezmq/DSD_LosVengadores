@@ -1,0 +1,211 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Master_MasterPage" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../css/Master.css" rel="stylesheet" type="text/css" />
+    <link href="../css/contenedores.css" rel="stylesheet" type="text/css" />
+    <link href="../css/listado.css" rel="stylesheet" type="text/css" />
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="../css/ajaxMenu.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../Scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-ui-1.8.19.custom.min.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 369px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function js_MostrarAlertaExito(titulo, Mensaje) {
+            debugger;
+            var lblAlert = $('#<%= lblAlert.ClientID %>');
+            var lblMensaje = $('#<%= lblMensaje.ClientID %>');
+            var imgAlerta = $('#<%= imgAlerta.ClientID %>');
+            var panel5 = $('#<%= panel5.ClientID %>');
+            var panelAlert = $('#<%= panelAlert.ClientID %>');
+            lblAlert.html(titulo);
+            lblMensaje.html(Mensaje);
+            imgAlerta.attr("src", "../Images/validar.png");
+
+            panel5.show();
+            panelAlert.show();
+            return false;
+        }
+        function js_MostrarAlertaAtencion(titulo, Mensaje) {
+            debugger;
+            var lblAlert = $('#<%= lblAlert.ClientID %>');
+            var lblMensaje = $('#<%= lblMensaje.ClientID %>');
+            var imgAlerta = $('#<%= imgAlerta.ClientID %>');
+            var panel5 = $('#<%= panel5.ClientID %>');
+            var panelAlert = $('#<%= panelAlert.ClientID %>');
+            lblAlert.html(titulo);
+            lblMensaje.html(Mensaje);
+            imgAlerta.attr("src", "../Images/atencion.jpg");
+
+            panel5.show();
+            panelAlert.show();
+            return false;
+        }
+
+        function js_OcultarAlerta() {
+            debugger;
+            var panel5 = $('#<%= panel5.ClientID %>');
+            var panelAlert = $('#<%= panelAlert.ClientID %>');
+            panel5.hide();
+            panelAlert.hide();
+            return false;
+        }
+    </script>
+
+
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="smMaster" runat="server" EnablePageMethods="true" EnablePartialRendering="true"
+        ScriptMode="Debug">
+    </asp:ScriptManager>
+    <div id="divContenedor">
+        <div id="divCabecera">
+            <div class="contenedor1">
+                <div class="contenedor2">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="height: 86px">
+                        <tr>
+                            <td class="style1">
+                                <img alt="" src="../Images/reactivacion.gif"/>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <table style="display: none;">
+                                        <tr>
+                                            <td class="txt01">
+                                                Bienvenido:
+                                            </td>
+                                            <td class="txt02">
+                                                <asp:Label ID="lblUsuario" runat="server"></asp:Label>
+                                            </td>
+                                            <td class="txt01">
+                                                I
+                                            </td>
+                                            <td class="txt02">
+                                                <asp:LinkButton ID="LnkCerrar" runat="server" Font-Names="Tahoma" Font-Size="8pt"
+                                                    ForeColor="#3366CC" >Cerrar Sesión</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                            <td width="104">
+                                <img alt="" src="../Images/logo.gif" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <div class="contenedor3">
+                </div>
+                <div class="dot">
+                </div>
+                <div class="contenedor4">
+                </div>
+                <br />
+                <div>
+                </div>
+            </div>
+        </div>
+        <div id="divBarra">
+        </div>
+        <div id="divIzquierda">
+            <cc1:Accordion ID="Accordion1" runat="server" TransitionDuration="100" FramesPerSecond="200"
+                        FadeTransitions="true" RequireOpenedPane="true" ContentCssClass="acc-content1"
+                        HeaderCssClass="acc-header1" HeaderSelectedCssClass="acc-selected1" SuppressHeaderPostbacks="false">
+                <Panes>
+                    <cc1:AccordionPane ID="AccordionPane0" runat="server">
+                        <Header>Sistema de Reactivación de Clientes</Header>
+                        <Content>
+                            <cc1:Accordion ID="Accordion2" runat="server" TransitionDuration="100" FramesPerSecond="200"
+                                        FadeTransitions="true" RequireOpenedPane="false" ContentCssClass="acc-content2"
+                                        HeaderCssClass="acc-header2" HeaderSelectedCssClass="acc-selected2" SuppressHeaderPostbacks="true"
+                                        SelectedIndex="-1">
+                                <Panes>
+                                    <cc1:AccordionPane ID="AccordionPane1" runat="server">
+                                        <Header>Solicitud de Reactivación</Header>
+                                        <Content>
+                                            <li><a href="../Paginas/GenerarSolicitud.aspx"><img alt="" src="../Images/Item.GIF" /> Generar Solicitud</a></li>
+                                            <li><a href="../Paginas/ConsultarSolicitud.aspx"><img alt="" src="../Images/Item.GIF" /> Consulta de Solicitudes</a></li>
+                                        </Content>
+                                    </cc1:AccordionPane>
+                                    <cc1:AccordionPane ID="AccordionPane2" runat="server">
+                                        <Header>Evaluación de Solicitud</Header>
+                                        <Content>
+                                            <li><a href="../Paginas/EvaluarSolicitud.aspx"><img alt="" src="../Images/Item.GIF" /> Evaluar Solicitud</a></li>
+                                        </Content>
+                                    </cc1:AccordionPane>
+                                    <cc1:AccordionPane ID="AccordionPane3" runat="server">
+                                        <Header>Instalación de Dispositivo</Header>
+                                        <Content>
+                                            <li><a href="../Paginas/InstalarDispositivo.aspx"><img alt="" src="../Images/Item.GIF" /> Activar POS</a></li>
+                                        </Content>
+                                    </cc1:AccordionPane>
+                                </Panes>
+                            </cc1:Accordion>
+                        </Content>
+                    </cc1:AccordionPane>
+                </Panes>
+            </cc1:Accordion>
+        </div>
+        <div id="divDerecha">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <div id="divPie">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                <tr>
+                    <td width="9">
+                        <img src="../Images/cv1.gif" width="9" style="height: 32px" />
+                    </td>
+                    <td>
+                        <div class="footer">
+                            Copyright © 2016 Universidad Peruana de Ciencias Aplicadas - EPE - Todos los derechos reservados.</div> 
+                    </td>
+                    <td width="9">
+                        <img src="../Images/cv2.gif" width="9" height="32px" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <asp:UpdatePanel ID="upAlert" runat="server" UpdateMode="Conditional">
+        <ContentTemplate>
+            <asp:Panel ID="panel5" runat="server" class="OverlayAlert" Style="display: none;">
+            </asp:Panel>
+            <asp:Panel ID="panelAlert" runat="server" class="PopUpPanelAlert" Style="display: none;">
+                <div style="text-align: center;">
+                    <div class="txt05">
+                        <asp:Label ID="lblAlert" runat="server" Style="text-align: center;"></asp:Label></div>
+                    <div class="contenedor8">
+                    </div>
+                    <br />
+                    <div>
+                        <asp:Image ID="imgAlerta" runat="server" Height="43px" Width="49px" /></div>
+                    <div>
+                        <asp:Label ID="lblMensaje" runat="server" Font-Bold="True" Style="text-align: left;"></asp:Label></div>
+                    <br />
+                    <asp:ImageButton ID="btnAceptar" runat="server" Text="Aceptar" ImageUrl="../Images/aceptar.png"
+                        OnClientClick="return js_OcultarAlerta();" />
+                </div>
+                <div>
+                    &nbsp;</div>
+            </asp:Panel>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    </form>
+</body>
+</html>

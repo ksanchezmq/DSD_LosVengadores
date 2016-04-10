@@ -1,0 +1,8 @@
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\bin\Debug\VisaNetMessagingServer.exe.config
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\bin\Debug\VisaNetMessagingServer.exe
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\bin\Debug\VisaNetMessagingServer.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\bin\Debug\DSD.Entity.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\bin\Debug\DSD.Entity.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\obj\Debug\VisaNetMessagingServer.csprojResolveAssemblyReference.cache
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\obj\Debug\VisaNetMessagingServer.exe
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetMessagingServer\obj\Debug\VisaNetMessagingServer.pdb

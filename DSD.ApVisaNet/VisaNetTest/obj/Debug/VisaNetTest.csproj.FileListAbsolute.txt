@@ -1,0 +1,25 @@
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll.config
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.csprojResolveAssemblyReference.cache
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll.config
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.csprojResolveAssemblyReference.cache
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll.config
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\VisaNetTest.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\bin\Debug\DSD.Entity.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.csprojResolveAssemblyReference.cache
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\VisaNetTest\obj\Debug\VisaNetTest.pdb

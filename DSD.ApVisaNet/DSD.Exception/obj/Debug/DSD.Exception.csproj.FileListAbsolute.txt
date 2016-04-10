@@ -1,0 +1,40 @@
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\Elmah.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\Newtonsoft.Json.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\Oracle.DataAccess.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.csprojResolveAssemblyReference.cache
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Elmah.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Newtonsoft.Json.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Oracle.DataAccess.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.csprojResolveAssemblyReference.cache
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Elmah.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Newtonsoft.Json.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Oracle.DataAccess.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.csprojResolveAssemblyReference.cache
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Exception.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Elmah.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Newtonsoft.Json.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\Oracle.DataAccess.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\bin\Debug\DSD.Core.Util.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.csprojResolveAssemblyReference.cache
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Exception\obj\Debug\DSD.Exception.pdb

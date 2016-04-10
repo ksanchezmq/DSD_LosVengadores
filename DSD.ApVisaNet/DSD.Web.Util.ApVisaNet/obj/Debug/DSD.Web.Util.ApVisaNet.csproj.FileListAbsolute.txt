@@ -1,0 +1,44 @@
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.pdb
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.csprojResolveAssemblyReference.cache
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.dll
+D:\distribuidas\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.pdb
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.csprojResolveAssemblyReference.cache
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.dll
+D:\WorkSpace\VS\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.pdb
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.csprojResolveAssemblyReference.cache
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.dll
+C:\Users\CORE I7\Desktop\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.Web.Util.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BE.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.BL.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\bin\Debug\DSD.DAL.ApVisaNet.pdb
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.csprojResolveAssemblyReference.cache
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.dll
+B:\DSD_LosVengadores\DSD_LosVengadores\DSD.ApVisaNet\DSD.Web.Util.ApVisaNet\obj\Debug\DSD.Web.Util.ApVisaNet.pdb
